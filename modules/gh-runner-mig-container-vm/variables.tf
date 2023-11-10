@@ -119,3 +119,8 @@ variable "cooldown_period" {
   type        = number
   default     = 60
 }
+
+variable "gce_startup_script" {
+  description = "The startup script to run on the GCE instance hosting the container"
+  type        = string
+}
